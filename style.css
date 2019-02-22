@@ -1,0 +1,107 @@
+body {
+	color: white;
+	background: rgba(0,0,0,0.75);
+	font-family: helvetica, arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 24px;
+	transition: all 1s ease;
+}
+.no-more-tears {
+	color: black;
+	background: white;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+main {
+	padding: 1em;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+button {
+	color: inherit;
+	border: 2px solid;
+	background-color: transparent;
+	outline: none;
+	border-radius: 0;
+	padding: 0.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 1em auto;
+	cursor: pointer;
+}
+.waving-hand {
+	cursor: pointer;
+}
+.toggle {
+	display: block;
+}
+.content {
+	display: inline-block;
+	margin: 4em auto 1em auto;
+	width: 25em;
+	height: 25em;
+	position: relative;
+}
+.content img {
+	display: block;
+}
+.cloud {
+	position: absolute;
+	z-index: 2;
+	width: 25em;
+}
+.rain {
+	position: absolute;
+	width: 2em;
+	top: 20em;
+	opacity: 1;
+	transition: opacity 1s;
+	z-index: -1
+}
+.rain-2 {
+    left: 4em;
+    top: 16em;
+}
+.rain-3 {
+    left: 6em;
+    top: 24em;
+}
+.rain-4 {
+    left: 10em;
+    top: 16em;
+}
+.rain-5 {
+    left: 13em;
+    top: 20em;
+}
+.rain-6 {
+    left: 16em;
+    top: 16em;
+}
+.rain-7 {
+    left: 18em;
+    top: 24em;
+}
+.rainbow {
+	opacity: 0;
+	transition: opacity 1s;
+	z-index: -1;
+	top: -3em;
+	position: absolute;
+	left: 6.5em;
+	width: 17em;
+}
+
+
+.no-more-tears .rainbow {
+	opacity: 1;
+}
+.no-more-tears .rain {
+	opacity: 0;
+}
